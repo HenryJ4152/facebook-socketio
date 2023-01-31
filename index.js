@@ -9,7 +9,7 @@ app.use(cors())
 
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:3000" || "vercel",
+    origin: "https://fbclone-henryj4152.vercel.app",
     methods: ["GET", "POST"]
   }
 });
